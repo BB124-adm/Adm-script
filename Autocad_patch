@@ -1,0 +1,36 @@
+echo 127.0.0.1 *.pubnubapi.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 access.clic.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 accounts.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 api.mcneel.com0.0.0.1 api.mcneel.com0.0.0.1 api.mcneel.com/license/invalidate >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 api.mcneel.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 api.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 api.pserver.sou.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 api.userprofile.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 ase-cdn-stg.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 ase.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 auth.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 authn.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 autodesk-prod.okta.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 autodesk.pubnubapi.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 autologon.microsoftazuread-sso.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 cdn.accounts.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 cdn.web-platform.io >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 clm.clic.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 cur.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 developer.api.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 genuine-software2.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 ipm-aem.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 native.auth.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 profile.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 registeronce.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 sso.accounts.autodesk.com >> C:\Windows\System32\drivers\etc\hosts
+echo 127.0.0.1 sso.connect.pingidentity.com >> C:\Windows\System32\drivers\etc\hosts
+del C:\ProgramData\Autodesk\CLM\LGS\* /s /q
+del С:\ProgramData\Autodesk\ADUT\* /s /q
+del C:\ProgramData\FLEXnet\* /s /q
+del %appdata%\Autodesk\ADUT\* /s /q
+del C:\Users\User\AppData\Local\Autodesk\Web Services\* /s /q
+del C:\ProgramData\Autodesk\CLM\V7\clm-runtime.*.db /s /q
+@pause
+appwiz.cpl
+
