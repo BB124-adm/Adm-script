@@ -1,0 +1,5 @@
+cscript //nologo %windir%\system32\slmgr.vbs /ipk NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.digiboy.ir 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.digiboy.ir 
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v KeyManagementServiceName /t REG_SZ /d "kms.digiboy.ir" /f /reg:32 
+cscript //nologo %windir%\system32\slmgr.vbs /ato 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03
