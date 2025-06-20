@@ -1,0 +1,39 @@
+стандарт2016
+
+cscript //nologo %windir%\system32\slmgr.vbs /ipk JNRGM-WHDWX-FJJG3-K47QV-DRTFM dedfa23d-6ed1-45a6-85dc-63cae0546de6 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local dedfa23d-6ed1-45a6-85dc-63cae0546de6 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local 
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v KeyManagementServiceName /t REG_SZ /d "kms.scraft.local" /f /reg:32 
+cscript //nologo %windir%\system32\slmgr.vbs /ato dedfa23d-6ed1-45a6-85dc-63cae0546de6 
+ 
+Посмотреть состояние активации: slmgr.vbs /dlv dedfa23d-6ed1-45a6-85dc-63cae0546de6
+
+про2016
+
+cscript //nologo %windir%\system32\slmgr.vbs /ipk XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 d450596f-894d-49e0-966a-fd39ed4c4c64 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local d450596f-894d-49e0-966a-fd39ed4c4c64 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local 
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v KeyManagementServiceName /t REG_SZ /d "kms.scraft.local" /f /reg:32 
+cscript //nologo %windir%\system32\slmgr.vbs /ato d450596f-894d-49e0-966a-fd39ed4c4c64
+ 
+Посмотреть состояние активации: slmgr.vbs /dlv d450596f-894d-49e0-966a-fd39ed4c4c64
+
+стандарт2019
+
+cscript //nologo %windir%\system32\slmgr.vbs /ipk 6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK 6912a74b-a5fb-401a-bfdb-2e3ab46f4b02 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local 6912a74b-a5fb-401a-bfdb-2e3ab46f4b02 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local 
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v KeyManagementServiceName /t REG_SZ /d "kms.scraft.local" /f /reg:32 
+cscript //nologo %windir%\system32\slmgr.vbs /ato 6912a74b-a5fb-401a-bfdb-2e3ab46f4b02
+  
+Посмотреть состояние активации: slmgr.vbs /dlv 6912a74b-a5fb-401a-bfdb-2e3ab46f4b02
+
+про2019
+
+cscript //nologo %windir%\system32\slmgr.vbs /ipk NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03 
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03
+cscript //nologo %windir%\system32\slmgr.vbs /skms kms.scraft.local 
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v KeyManagementServiceName /t REG_SZ /d "kms.scraft.local" /f /reg:32 
+cscript //nologo %windir%\system32\slmgr.vbs /ato 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03
+  
+Посмотреть состояние активации: slmgr.vbs /dlv 85dd8b5f-eaa4-4af3-a628-cce9e77c9a03
