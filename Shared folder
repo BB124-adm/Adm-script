@@ -1,0 +1,10 @@
+#Подключение общего диска на объекте с помощью шела
+
+echo "Диск подключается, подождите..."
+$Names = Get-NetAdapter | Where-Object {$_.status -eq "Up"}
+$AllIP = Foreach ($Name in $Names)
+{(Get-NetIPAddress | where-object {$_.InterfaceAlias -eq $name.name}).IPv4Address}
+$ip = $AllIP[1].split(".")
+$ip[3] = "2"
+$diskIp = $ip[0] + '.' + $ip[1] + '.' + $ip[2] + '.' + $ip[3]
+net use * \\$diskIp\Общая /user:$Env:UserName\user 123456
