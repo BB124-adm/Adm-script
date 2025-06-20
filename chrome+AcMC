@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Set up the enrollment token for organizational unit: СтройКрафт
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"CloudManagementEnrollmentToken"="e7daa05e-176a-4aff-9af8-491caaea2c3e"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive]
+"DisableFileSyncNGSC"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Settings\AllowYourAccount]
+"value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wlidsvc]
+"Start" =dword:00000004
