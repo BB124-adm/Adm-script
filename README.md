@@ -1,1 +1,1 @@
-file stay for SC
+Скрипты для SCraft
